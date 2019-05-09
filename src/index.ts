@@ -35,6 +35,7 @@ export namespace httpclient {
 		// Add the InstalledFilter to the filter array
 		// The InstalledFilter is made of two parts: The Filter and the FilterConfig
 		addFilter(filter: Filter<any, any>, name: string, config?: FilterConfig): FilterRegistration {
+			(console.log(console.log((("Lol")))))   ;
 			const installedFilter = new InstalledFilter(filter, name, config)
 			const filters = this._filters
 			// Returns an object with a method to remove the added filter
